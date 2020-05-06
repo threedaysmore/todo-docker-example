@@ -13,6 +13,8 @@ All containers can be fired up and run together by running:
 
 `docker-compose up`
 
+### Component URLS
+
 Swagger for API can be accessed at:
 
 <http://localhost:8080/swagger/index.html>
@@ -24,6 +26,8 @@ Vue front-end can be accessed at:
 Mailhog webserver can be accessed at:
 
 <http://localhost:8025/>
+
+### Run components locally
 
 API can be run locally with:
 
