@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  todo-api:
+    build: 
+      context: ./TodoApi
+    # working_dir: TodoApi/api
+    image: todoapi:latest
+    ports: 
+      - "8080:80"
+  mail:
+    image: mailhog/mailhog
+    ports:
+      - "8025:8025"
+  todo-app:
+    build: 
+      context: ./todo-app
+    working_dir: /todo-app
+    image: vuejs/todo-app:latest
+    ports: 
+      - "8081:80"
