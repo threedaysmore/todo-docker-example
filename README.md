@@ -15,15 +15,15 @@ All containers can be fired up and run together by running:
 
 Swagger for API can be accessed at:
 
-`http://localhost:8080/swagger/index.html`
+<http://localhost:8080/swagger/index.html>
 
 Vue front-end can be accessed at:
 
-`http://localhost:8081/#/`
+<http://localhost:8081/#/>
 
 Mailhog webserver can be accessed at:
 
-`http://localhost:8025/`
+<http://localhost:8025/>
 
 API can be run locally with:
 
