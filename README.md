@@ -15,17 +15,11 @@ All containers can be fired up and run together by running:
 
 ### Component URLS
 
-Swagger for API can be accessed at:
+Swagger for API can be accessed at: <http://localhost:8080/swagger/index.html>
 
-<http://localhost:8080/swagger/index.html>
+Vue front-end can be accessed at: <http://localhost:8081/#/>
 
-Vue front-end can be accessed at:
-
-<http://localhost:8081/#/>
-
-Mailhog webserver can be accessed at:
-
-<http://localhost:8025/>
+Mailhog webserver can be accessed at: <http://localhost:8025/>
 
 ### Run components locally
 
