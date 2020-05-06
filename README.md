@@ -13,7 +13,7 @@ All containers can be fired up and run together by running:
 
 `docker-compose up`
 
-### Component URLS
+### Component URLs
 
 Swagger for API can be accessed at: <http://localhost:8080/swagger/index.html>
 
