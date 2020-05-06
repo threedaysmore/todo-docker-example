@@ -10,21 +10,31 @@ This is a docker example that runs an aspnetcore API, a Mailhog mail server, and
 ## Get Started
 
 All containers can be fired up and run together by running:
+
 `docker-compose up`
 
 Swagger for API can be accessed at:
+
 `http://localhost:8080/swagger/index.html`
 
 Vue front-end can be accessed at:
+
 `http://localhost:8081/#/`
 
 Mailhog webserver can be accessed at:
+
 `http://localhost:8025/`
 
 API can be run locally with:
-`cd ./TodoApi`
-`dotnet run`
+
+```powershell
+cd ./TodoApi
+dotnet run
+```
 
 Vue app can be run locally with:
-`cd ./todo-app`
-`npm run dev`
+
+```powershell
+cd ./todo-app
+npm run dev
+```
